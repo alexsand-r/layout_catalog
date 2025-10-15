@@ -57,7 +57,7 @@
     text-transform: uppercase;
     cursor: pointer;
     text-decoration: none;
-    color: #060b35;
+    color: $nav-link-color;
     line-height: 15px;
     height: 60px;
     display: flex;
@@ -65,6 +65,7 @@
     position: relative;
     justify-content: center;
     font-weight: $medium;
+    transition: color $transition-duration ease 0s;
 
     &:hover {
       color: $link-active-color;

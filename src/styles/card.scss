@@ -1,7 +1,7 @@
 @use './variables' as *;
 
 .card {
-  background-color: #fff;
+  background-color: $white-background-color;
   width: $card-width;
   box-sizing: border-box;
   border-radius: 5px;
@@ -14,7 +14,7 @@
   &__title {
     margin: 0;
     padding: 0;
-    color: #060b35;
+    color: $main-color;
     font-weight: $medium;
     font-size: 12px;
     margin-bottom: 4px;
