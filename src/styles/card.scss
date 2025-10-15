@@ -2,12 +2,12 @@
 
 .card {
   background-color: #fff;
-  width: 200px;
+  width: $card-width;
   box-sizing: border-box;
   border-radius: 5px;
   transition:
-    transform 0.3s ease,
-    background-color 0.3s ease;
+    transform $transition-duration ease,
+    background-color $transition-duration ease;
   border: 1px solid #f3f3f3;
 
   // базовий стан елементів
@@ -26,7 +26,7 @@
     transform: scale(1.2);
 
     .card__title {
-      color: #34568b;
+      color: $card-title-hover-color;
     }
   }
 
@@ -107,7 +107,7 @@
     line-height: 16px;
     border: 1px solid #00acdc;
     width: 100%;
-    transition: all 0.3s ease;
+    transition: all $transition-duration ease;
     box-sizing: border-box;
     text-decoration: none;
     text-align: center;

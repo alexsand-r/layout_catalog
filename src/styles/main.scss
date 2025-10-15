@@ -14,11 +14,11 @@
   // .main-block__body
 
   &__body {
-    padding: 50px 40px;
+    padding: $catalog-padding-vertical $catalog-padding-horizontal;
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: 1fr;
     justify-content: center;
-    gap: 46px 48px;
+    gap: $gap-x $gap-y;
 
     @media (min-width: 488px) {
       grid-template-columns: repeat(2, 200px);
